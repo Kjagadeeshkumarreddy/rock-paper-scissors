@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+header{
+    background: #081b31;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.images{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 40vh;
+}
+img{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#rock,#paper,#scissors{
+    width:fit-content;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+}
+.scorebord,.messagebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score{
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+}
+.score p{
+    padding-top: 1rem;
+    font-size: large;
+}
+.messagebox p{
+    font-size: 2rem;
+    background-color: green;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+#rock:hover,#paper:hover,#scissors:hover{
+    opacity: 0.7;
+    background-color: #060f1a;
+    cursor: pointer;
+}
+#you,#comp{
+    font-size: 4rem;
+}
